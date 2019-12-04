@@ -1,0 +1,28 @@
+<body style=" margin: auto;">
+    <div style="padding: 50px;" class="central">
+        <div class="inicio central">
+            <div class="center_center">
+
+
+              <div class="cart-item" *ngFor="let item of items">
+      
+                    <div class="div_porcoes">
+
+                        <div class="descricao_porcao">
+                            <span>R$</span>
+                            <h1>{{ hamburger.price | currency }}</h1>
+                            <div class="descricao_porcao1">
+                                <h1>{{ item.name }}</h1>
+                                <h1>{{ item.price | currency }}</h1>
+                                <button>FINALIZAR COMPRA</button>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+
+
+        </div>
+    </div>
+  </div>
+</body>
+

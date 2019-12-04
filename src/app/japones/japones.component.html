@@ -1,0 +1,116 @@
+<body style=" margin: auto;">
+    <div style="padding: 50px;" class="central">
+        <div class="inicio central">
+            <div class="center_center">
+
+
+                    <h1 style="background-color: #f4511e; color: white;">Nossas opções</h1>
+
+                    <div style="background-color: #56c7b8;" class="centralizando topico">
+                            
+                            <div class="apresentacao_imagens">
+                                    <div class="zoom">
+                                            <a routerLink="/porcoes">
+                                            <img src="assets/1_porções.png" class="img-responsive">
+                                            </a>
+                                    </div>
+                            </div>
+
+                            <div class="apresentacao_imagens" style="padding: 4px 0px 4px 0px">
+                                    <div class="zoom">
+                                            <a routerLink="/porcoes">
+                                            <img src="assets/2_porções.png" class="img-responsive">
+                                            </a>
+                                    </div>
+                            </div>
+
+                            <div class="apresentacao_imagens">
+                                    <div class="zoom">
+                                            <a routerLink="/porcoes">
+                                            <img src="assets/3_porções.png" class="img-responsive">
+                                            </a>
+                                    </div>
+                            </div>
+                         
+
+                    </div>
+
+                    <div style="background-color: #56c7b8;" class="centralizando ">
+
+                            <div class="apresentacao_imagens">
+                                    <div class="zoom">
+                                            <a routerLink="/lanches">
+                                            <img src="assets/1_hamburger.png" class="img-responsive">
+                                            </a>
+                                    </div>
+                            </div>
+                            <div class="apresentacao_imagens" style="padding: 4px 0px 4px 0px">
+                                    <div class="zoom">
+                                            <a routerLink="/lanches">
+                                            <img src="assets/2_hamburger.png" class="img-responsive">
+                                            </a>
+                                    </div>
+                            </div>
+                            <div class="apresentacao_imagens">
+                                    <div class="zoom">
+                                            <a routerLink="/lanches">
+                                            <img src="assets/3_hamburger.png" class="img-responsive">
+                                            </a>
+                                    </div>
+                            </div>
+                         
+
+                    </div>
+
+                    <div style="background-color: #56c7b8;" class="centralizando ">
+
+                            <div class="apresentacao_imagens">
+                                    <div class="zoom">
+                                            <a routerLink="/japones">
+                                            <img src="assets/1_sushi.png" class="img-responsive">
+                                            </a>
+                                    </div>
+                            </div>
+                            <div class="apresentacao_imagens" style="padding: 4px 0px 4px 0px">
+                                    <div class="zoom">
+                                            <a routerLink="/japones">
+                                            <img src="assets/2_sushi.png" class="img-responsive">
+                                            </a>
+                                    </div>
+                            </div>
+                            <div class="apresentacao_imagens">
+                                    <div class="zoom">
+                                            <a routerLink="/japones">
+                                            <img src="assets/3_sushi.png" class="img-responsive">
+                                            </a>
+                                    </div>
+                            </div>
+                    </div>
+
+<!-- Começo das descrições do produto-->
+
+                <div class="div_porcoes" style="background-color: #f4511e;">
+                    <div *ngFor="let hamburger of hamburgers; index as hamburgerId">
+                        <div class="imagem_porcao">
+                            <img src="{{hamburger.imagem}}" alt="">
+                        </div>
+                        <div class="descricao_porcao">
+                            <span>R$</span>
+                            <h1>{{hamburger.price}}</h1>
+                        </div>
+                        
+                        <div class="descricao_botao">
+                            <h3>
+                                <a [title]="hamburger.name + ' details'" [routerLink]="['/hamburgers', hamburgerId]">
+                                    <button>{{hamburger.name}}</button>
+                                </a>
+                            </h3>
+                            <!-- . . . -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
