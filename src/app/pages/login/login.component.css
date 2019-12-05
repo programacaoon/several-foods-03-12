@@ -89,7 +89,7 @@ body {
 }
 
 .janela_renderizada_cadastro input {
-    width: 100%;
+    width: 200px;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -198,6 +198,3 @@ body {
     opacity: 1;
     right: 0;
   }
-
-
-

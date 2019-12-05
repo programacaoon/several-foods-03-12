@@ -1,28 +1,33 @@
+
 <body style=" margin: auto;">
     <div style="padding: 50px;" class="central">
         <div class="inicio central">
             <div class="center_center">
 
-
-              <div class="cart-item" *ngFor="let item of items">
-      
                     <div class="div_porcoes">
 
+                            
                         <div class="descricao_porcao">
-                            <span>R$</span>
                             <h1>{{ hamburger.price | currency }}</h1>
                             <div class="descricao_porcao1">
-                                <h1>{{ item.name }}</h1>
-                                <h1>{{ item.price | currency }}</h1>
-                                <button>FINALIZAR COMPRA</button>
+                                <div class="cart-item" *ngFor="let item of items">
+                                        <h1>{{ item.descricao }}</h1>
+                                        <h1>{{ item.valor | currency }}</h1>
+                                </div>
+                               
                             </div>
-                        </div>
+    
                       </div>
                 </div>
 
+                <div style="margin-top: 53px" align="center">
+                        <button style="border: none; background-color: #f4511e; padding: 18px 43px; color: white;"
+                        >Finalizar Compra</button>
+                </div>
 
         </div>
     </div>
   </div>
 </body>
+
 

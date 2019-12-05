@@ -1,51 +1,51 @@
 export const hamburgers = [
   
   {
-    name: 'teste',
-    price: 25.99,
-    description: 'Nes presunto, carne de gado',
+    nome: 'Detalhes',
+    valor: 19.12,
+    descricao: 'Cheddar duplo',
     imagem:"assets/cheddar_duplo.png"
 
   },
   {
-    name: 'teste',
-    price: 25.99,
-    description: 'Nes presunto, carne de gado',
+    nome: 'Detalhes',
+    valor: 12.51,
+    descricao: 'Chicken junior',
     imagem:"assets/chiken_junior.png"
 
   },
   {
-    name: 'teste',
-    price: 25.99,
-    description: 'Nes presunto, carne de gado',
+    nome: 'Detalhes',
+    valor: 19.85,
+    descricao: 'Big Mac',
     imagem:"assets/big_mac.png"
 
   },
   {
-    name: 'teste',
-    price: 25.99,
-    description: 'Nes presunto, carne de gado',
+    nome: 'Detalhes',
+    valor: 40.99,
+    descricao: 'Porção camarão',
     imagem:"assets/camarao.png"
 
   },
   {
-    name: 'teste',
-    price: 25.99,
-    description: 'Nes presunto, carne de gado',
+    nome: 'Detalhes',
+    valor: 28.20,
+    descricao: 'file de tilapia',
     imagem:"assets/file_de_tilapia.png"
 
   },
   {
-    name: 'teste',
-    price: 25.99,
-    description: 'Nes presunto, carne de gado',
+    nome: 'Detalhes',
+    valor: 18.56,
+    descricao: 'temaki salmao',
     imagem:"assets/temakiSalmao.png"
 
   },
   {
-    name: 'Yakisoba',
-    price: 15.99,
-    description: 'Nes presunto, carne de gado',
+    nome: 'Detalhes',
+    valor: 15.99,
+    descricao: 'yakisoba',
     imagem:"assets/yakisoba.png"
   }
 ];

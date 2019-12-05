@@ -84,9 +84,9 @@ body {
 
 .descricao_botao button {
     padding: 15px 34px 15px 34px;
-    border: solid 1px #50c750;
-    color: #50c750;
-    background-color: white;
+    border: none;
+    color: white;
+    background-color: #652929;
 }
 
 
@@ -205,7 +205,7 @@ body {
     padding: 0px;
     font-size: 21px;
     text-align: left;
-    color: gray;
+    color: #e6dddd;
 }
 
 .zoom {

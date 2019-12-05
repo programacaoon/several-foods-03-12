@@ -72,7 +72,7 @@ body {
 }
 
 .descricao_porcao1 {
-    padding: 80px 20px 20px 33px;
+    padding: 0px;
 }
 
 .descricao_botao {
@@ -182,15 +182,16 @@ body {
 
   .descricao_porcao {
     float: left;
+    width: 75% ;
 }
 
 .descricao_porcao h1 {
     float: left;
-    padding: 12px 13px 12px 32px;
-    font-size: 62px;
+    padding: 12px 0px 0px 8px;
+    font-size: 48px;
     margin: auto;
     color: black;
-    font-family: fantasy;
+    font-family: none;
 }
 
 .descricao_porcao span{
@@ -262,3 +263,12 @@ body {
     padding-bottom: 12px;
 }
 
+.janela_renderizada_cadastro input {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
